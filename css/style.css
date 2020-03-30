@@ -1,0 +1,30 @@
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.articles {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.article {
+  flex: 0 1 48%;
+}
+
+.parent-img {
+  position: relative;
+  padding-top: 75%;
+  background-image: url(data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7);
+  overflow: hidden;
+}
+
+.lazy-img {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
